@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Record Player</title>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="player">
+      <div class="record">
+        <div class="label"></div>
+      </div>
+      <div class="tone-arm">
+        <div class="control"></div>
+      </div>
+      <button class="btn"></button>
+      <div class="slider-container">
+        <input
+          type="range"
+          class="slider"
+          min="0"
+          max="1"
+          step="0.1"
+          value="0.7"
+        />
+      </div>
+    </div>
+    <audio loop class="my-song" src="Different kind of love.mp3" preload="auto"></audio>
+    
+    <img src="bbg.jpg" alt="bbg" id="image1">
+    <img src="Me.jpg" alt="me" id="image2">
+
+    <div class="lyrics-container">
+    <p class="lyrics">Guess there's something about it<br>
+That I can't explain<br>
+We could see other people<br>
+But it's never the same<br>
+You could be in Toronto<br>
+And I could be in L.A<br>
+And we could wait too long<br>
+But it's never too late<br>
+And if twenty years went by without you<br>
+I'd know our feelings wouldn't change<br>
+We've got that different kind of love<br>
+That's stronger than the both of us<br>
+No matter what<br>
+We've got that different kind of love<br>
+We've got that<br>
+We don't have to talk<br>
+To know this love will never stop<br>
+No matter what<br>
+We've got that different kind of love</p>
+  </div>
+  
+
+  
+    <!-- Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
